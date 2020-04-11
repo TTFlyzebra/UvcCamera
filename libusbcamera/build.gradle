@@ -71,6 +71,5 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation (name:'common-1.5.20',ext:'aar')
     implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation project(path: ':debuglog')
 
 }

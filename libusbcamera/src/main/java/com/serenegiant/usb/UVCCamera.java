@@ -30,7 +30,7 @@ import android.util.Log;
 import android.view.Surface;
 import android.view.SurfaceHolder;
 
-import com.flyzebra.debuglog.FlyLog;
+import com.flyzebra.utils.FlyLog;
 import com.serenegiant.usb.USBMonitor.UsbControlBlock;
 
 import org.json.JSONArray;

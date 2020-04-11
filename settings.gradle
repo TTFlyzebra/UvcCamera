@@ -1,1 +1,1 @@
-include ':app', ':libusbcamera', ':debuglog'
+include ':uvccamera', ':libusbcamera'
