@@ -6,7 +6,7 @@
     android:background="#000"
     android:keepScreenOn="true"
     android:gravity="center"
-    tools:context="com.flyzebra.uvccam.ui.SimpleActivity">
+    tools:context="com.flyzebra.uvccamera.ui.SimpleActivity">
 
     <com.serenegiant.widget.SimpleUVCCameraTextureView
         android:id="@+id/uvc_camera_01"
