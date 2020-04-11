@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.flyzebra.uvccamera">
 
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
@@ -15,7 +16,8 @@
             android:name="com.flyzebra.uvccamera.ui.MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -32,7 +34,8 @@
         <activity
             android:name="com.flyzebra.uvccamera.ui.FileActivity"
             android:screenOrientation="landscape"
-            android:theme="@style/AppTheme" />
+            android:theme="@style/AppTheme"
+            tools:ignore="LockedOrientationActivity" />
 
         <!--<receiver android:name=".receiver.UsbRecevier">-->
         <!--<intent-filter>-->

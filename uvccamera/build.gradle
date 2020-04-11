@@ -34,5 +34,5 @@ dependencies {
     implementation(name: 'common-1.5.20', ext: 'aar')
     implementation 'com.google.code.gson:gson:2.8.1'
     implementation 'com.android.support:recyclerview-v7:26.1.0'
-    implementation project(path: ':libusbcamera')
+    implementation project(path: ':libuvccamera')
 }

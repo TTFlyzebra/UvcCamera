@@ -1,1 +1,1 @@
-include ':uvccamera', ':libusbcamera'
+include ':uvccamera', ':libuvccamera'
