@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <LinearLayout
+        android:background="@drawable/bk_01dp"
+        android:id="@+id/ll01"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/file_photo"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bk_layout1"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageView
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:id="@+id/file_photo_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/camera_over" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/file_video"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bk_layout2"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageView
+                android:id="@+id/file_video_iv"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                android:src="@drawable/record" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:background="@drawable/bk_01dp"
+        android:id="@+id/file_fm01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/ll01" />
+
+
+</RelativeLayout>
